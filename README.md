@@ -1,2 +1,1 @@
-# SmObstacleAvoidanceAlgo
-Obstacle Avoidance Algorithm for Autonomous Robot
+# Obstacle Avoidance Algorithm for Autonomous Robot
