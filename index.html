@@ -1,2 +1,34 @@
-<h1>Welcome</h1>
-<p>Page under construction</p>
+<link type="text/css" rel="stylesheet" href="stylesheets/main.css" />
+
+
+<h1>Simple Obstacle Avoidance Algorithm for Autonomous Robot</h1>
+<div class="content">
+
+
+    <div>
+        <h3>Main idea</h3>
+        <p>The robot has to find a path to escape from the maze.</p>
+
+    </div>
+
+
+    <div>
+        <h3>How it works</h3>
+
+        <p>
+            A simple obstacle avoidance algorithm runs on the Arduino board. 
+            This algorithm allows the robot to explore its surrounding environment while this latter spins at its axis to find obstacles on four of its sides since the algorithm treats the robot as if it has a square form. 
+            The algorithm decides which movement to take based on the distance data from the robot to current obstacles obtained by the ultrasonic sensors attached to the robot.  
+                    </p>
+    </div>
+
+    <div class="content_video"">
+        <p><i>The ultrasonic sensor detects the corner of the book, making the algorithm believe that there is an obstacle on the robot's front side; thus, the robot looks for another direction to move on. </i></p> 
+        <video width="500" height="400" controls>
+            <source src="./vis/ObstacleAvoidance_1.mp4" type="video/mp4">
+            Demo
+        </video>
+
+    </div>
+
+</div>
